@@ -1,5 +1,140 @@
-*{
+* {
     margin: 0%;
     padding: 1%;
     font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-style {
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+
+
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../image/header.png'), url('../image/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom center, left;
+}
+
+.text-btn-style {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    margin: 0 200px;
+    text-align: center;
+    height: 1%;
+
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cv-style {
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+}
+
+/* about section style */
+.about {
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 485px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+
+.section-style {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.about.info-description {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+
 }
